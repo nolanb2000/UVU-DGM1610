@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
+public class ScoreHolder : MonoBehaviour {
+
+	
 	public static int Score;
 
 	Text ScoreText;
 
-public class ScoreHolder : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -20,15 +23,12 @@ public class ScoreHolder : MonoBehaviour {
 	void Update () {
 		if (Score < 0)
 			Score = 0;
-		ScoreText.Text = "" + Score;
+		ScoreText.text = "" + Score;
 	}
 
 	public static void AddPoints (int PointsToAdd){
+		
 		Score += PointsToAdd;
 	}
-
-
-
-		
 	
 }

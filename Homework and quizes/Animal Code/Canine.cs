@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Canine : Animal {
-
+	public float Health 
 	public bool Tail;
 	public bool Bark; 
 	public Color CoatColor;

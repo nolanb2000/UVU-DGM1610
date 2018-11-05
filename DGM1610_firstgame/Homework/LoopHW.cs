@@ -5,18 +5,19 @@ using UnityEngine;
 public class LoopHW : MonoBehaviour {
 
 	public int depth = -100;
-	public; 
+	public int Water = 50;
 
 	// Use this for initialization
 	void Start () {
-	// 	for(int i=0; i >= 50; i++){
+	 	for(int i=0; i >= 50; i++){
 		
-	// 	print(i + "Marching");
-	// 	}
+	 	print(i + "Marching");
+	 	}
 
-		// for(){
+		 for(int p=0; p >= 150; p+10){
 
-		// }
+		print(p + "Points added ");
+		}
 
 		//for(){
 
@@ -27,8 +28,9 @@ public class LoopHW : MonoBehaviour {
 			depth ++;
 		}
 
-		//while(){
-			//print(); 
+		while(Water >= 0){
+			print("Water Left "); 
+			Water --;
 
 		// }
 		// while(){

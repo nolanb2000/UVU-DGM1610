@@ -61,7 +61,11 @@ public class CharactorMove : MonoBehaviour {
 
 		GetComponent<Rigidbody2D>().velocity = new Vector2(MoveVelocity, GetComponent<Rigidbody2D>().velocity.y);
 
+		if(GetComponent<Rigidbody2D>().velocity.x > 0)
+			transform.localScale = new Vector3(3f,3f,1f);
 
+		else if(GetComponent<Rigidbody2D>().velocity.x < 0)
+		transform.localScale = new Vector3(-3f,3,1f);
 
 	}
 

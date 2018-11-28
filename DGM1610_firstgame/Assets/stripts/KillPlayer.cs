@@ -6,6 +6,8 @@ public class KillPlayer : MonoBehaviour {
 
 	public LevelManager LevelManager;
 
+	public int LivesToAdd;
+
 	// Use this for initialization
 	void Start () {
 		LevelManager = FindObjectOfType <LevelManager>();
@@ -14,9 +16,13 @@ public class KillPlayer : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other){
 		if(other.name =="Player"){
 			LevelManager.RespawnPlayer();
+
+		Livesholder.AddLives (LivesToAdd);
 		}
 	}
 	
+	
+
 	// Update is called once per frame
 	void Update () {
 		

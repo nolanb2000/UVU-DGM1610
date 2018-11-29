@@ -8,6 +8,9 @@ public class LevelManager : MonoBehaviour {
 	public Rigidbody2D Player; 
 	public GameObject Player2;
 
+	public int MaxLives;
+	
+
 	//Particles
 	public GameObject DeathParticle;
 	public GameObject RespawnParticle;

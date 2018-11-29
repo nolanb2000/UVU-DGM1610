@@ -17,7 +17,7 @@ public class KillPlayer : MonoBehaviour {
 		if(other.name =="Player"){
 			LevelManager.RespawnPlayer();
 
-		Livesholder.AddLives (LivesToAdd);
+		Livesholder.AddLives (-LivesToAdd);
 		}
 	}
 	

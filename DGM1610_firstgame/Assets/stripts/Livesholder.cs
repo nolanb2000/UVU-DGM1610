@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+
 public class Livesholder : MonoBehaviour {
 
 	
 	public static int Lives;
-	public int MaxLives=3; 
 
 	Text LivesText;
 

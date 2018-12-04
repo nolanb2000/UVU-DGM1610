@@ -25,7 +25,7 @@ public class Livesholder : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Lives <= 0)
-			Lives = 0;
+			Lives = 3;
 
 	LivesText.text = "" + Lives;
 	}

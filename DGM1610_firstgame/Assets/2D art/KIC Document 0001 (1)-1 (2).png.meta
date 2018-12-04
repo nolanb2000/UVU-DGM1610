@@ -4,6 +4,12 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: Skulls
     21300002: Player
+    21300004: KIC Document 0001 (1)-1 (2)_0
+    21300006: KIC Document 0001 (1)-1 (2)_1
+    21300008: KIC Document 0001 (1)-1 (2)_2
+    21300010: KIC Document 0001 (1)-1 (2)_3
+    21300012: KIC Document 0001 (1)-1 (2)_4
+    21300014: KIC Document 0001 (1)-1 (2)_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -121,6 +127,126 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8809c11afb6d16e46a25865861a6ff2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIC Document 0001 (1)-1 (2)_0
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 79
+        width: 57
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b627ee5701495e459a7a5423bee4ffc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIC Document 0001 (1)-1 (2)_1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 88
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc90541d30281d54296507edec049b50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIC Document 0001 (1)-1 (2)_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 72
+        width: 59
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034976d9fd92b6f4b95417f196be56d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIC Document 0001 (1)-1 (2)_3
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 82
+        width: 70
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f840b9958db975f4eae583d83129bdac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIC Document 0001 (1)-1 (2)_4
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 95
+        width: 60
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0360b327b65e6494c9a2fa07240d4f9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIC Document 0001 (1)-1 (2)_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 114
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee8e15d6f254284f9193c5cbb2798d5
       vertices: []
       indices: 
       edges: []

@@ -19,6 +19,8 @@ public class KillPlayer : MonoBehaviour {
 
 		Livesholder.AddLives (-LivesToAdd);
 		}
+
+		
 	}
 	
 	

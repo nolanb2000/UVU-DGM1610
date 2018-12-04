@@ -33,6 +33,7 @@ public class ScoreHolder : MonoBehaviour {
 		if (Score < 0)
 			Score = 0;
 		ScoreText.text = "" + Score;
+		
 		if(Score>= WinScore ){
 			print("Win Reached =" + Score);
 			WinText.GetComponent<Text>().enabled = true;

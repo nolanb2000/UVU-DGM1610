@@ -9,46 +9,46 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1323115248399138}
+  m_RootGameObject: {fileID: 1411942094439896}
   m_IsPrefabAsset: 1
---- !u!1 &1323115248399138
+--- !u!1 &1411942094439896
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4320273121709294}
-  - component: {fileID: 212168943386983710}
-  - component: {fileID: 58607174781474642}
-  - component: {fileID: 114482610853806896}
-  - component: {fileID: 95304758816948656}
+  - component: {fileID: 4546073693992254}
+  - component: {fileID: 212956956839450346}
+  - component: {fileID: 58484972617696892}
+  - component: {fileID: 114841998141739404}
+  - component: {fileID: 95069230427701756}
   m_Layer: 10
-  m_Name: Coin 1
+  m_Name: Coin (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4320273121709294
+--- !u!4 &4546073693992254
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1323115248399138}
+  m_GameObject: {fileID: 1411942094439896}
   m_LocalRotation: {x: -0, y: 0.60853094, z: -0, w: -0.7935301}
-  m_LocalPosition: {x: 1.18, y: -4.93, z: 0}
+  m_LocalPosition: {x: 7.26, y: -4.93, z: 0}
   m_LocalScale: {x: 6.677253, y: 6.677253, z: 6.677253}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 285.033, z: 0}
---- !u!58 &58607174781474642
+--- !u!58 &58484972617696892
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1323115248399138}
+  m_GameObject: {fileID: 1411942094439896}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -58,13 +58,13 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.099999994
---- !u!95 &95304758816948656
+--- !u!95 &95069230427701756
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1323115248399138}
+  m_GameObject: {fileID: 1411942094439896}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: e49b8c3aabf640c478ce2c0cfd8d3a86, type: 2}
@@ -76,24 +76,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114482610853806896
+--- !u!114 &114841998141739404
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1323115248399138}
+  m_GameObject: {fileID: 1411942094439896}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f65721b49233b14da384de0c28f806a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PointsToAdd: 5
---- !u!212 &212168943386983710
+--- !u!212 &212956956839450346
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1323115248399138}
+  m_GameObject: {fileID: 1411942094439896}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0

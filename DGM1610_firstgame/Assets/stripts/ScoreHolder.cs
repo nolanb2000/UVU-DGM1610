@@ -10,6 +10,8 @@ public class ScoreHolder : MonoBehaviour {
 	public static int Score;
 	public int WinScore;
 
+
+
 	Text ScoreText;
 
 	public Text WinText;
@@ -25,6 +27,7 @@ public class ScoreHolder : MonoBehaviour {
 		Score = 0;
 
 		WinText.GetComponent<Text>().enabled = false;
+		
 		
 	}
 	

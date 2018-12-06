@@ -11,8 +11,7 @@ public class Livesholder : MonoBehaviour {
 	public static int Lives;
 
 	Text LivesText;
-
-
+	// public Text GameOver;
 
 	// Use this for initialization
 	void Start () {
@@ -26,9 +25,16 @@ public class Livesholder : MonoBehaviour {
 	void Update () {
 		if (Lives <= 0)
 			Lives = 3;
-
+		
 	LivesText.text = "" + Lives;
+
+	// if(Lives>= GameOver ){
+	// 		print("GameOver =" + Score);
+	// 		GameOver.GetComponent<Text>().enabled = true;
+	// 		Time.timeScale = 0;
 	}
+
+
 
 
 	public static void AddLives (int LivesToAdd){

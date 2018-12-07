@@ -33,6 +33,7 @@ public class CharactorMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		print(Grounded);
 		
 		//This Code makes the character jump
 		if(Input.GetKeyDown (KeyCode.Space)&& Grounded){
@@ -43,7 +44,7 @@ public class CharactorMove : MonoBehaviour {
 		//Double Jump
 		if(Grounded)
 			DoubleJump = false;
-			animator.SetBool("IsJumping", false);
+			// animator.SetBool("IsJumping", false);
 
 		if(Input.GetKeyDown(KeyCode.Space)&& !DoubleJump && !Grounded){
 			Jump();
@@ -87,6 +88,6 @@ public class CharactorMove : MonoBehaviour {
 
 	public void Jump(){
 			GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, JumpHeight);
-			animator.SetBool("IsJumping", true);
+			animator.SetTrigger("IsJumping");
 	}
 }

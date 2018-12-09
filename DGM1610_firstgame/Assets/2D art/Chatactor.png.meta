@@ -4,6 +4,8 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: Fire
     21300002: Floor
+    21300004: Chatactor_0
+    21300006: Chatactor_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -94,7 +96,7 @@ TextureImporter:
         width: 82
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 1, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -114,13 +116,53 @@ TextureImporter:
         width: 118
         height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 0dcacaf70d2206046b17098d8afc8c42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatactor_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 76
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 8, y: 8, z: 0, w: 9}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67fa78d77f9cb74894e07539f0e8019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatactor_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 72
+        width: 99
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0a819bb54e31943b9af8540dabfab7
       vertices: []
       indices: 
       edges: []
